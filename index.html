@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    
+
+    <!-- Tailwind CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.js"></script>
+</head>
+
+<body class="bg-blue-200">
+    <!--header-->
+    <!--nav-->
+    <div class="flex ">
+        <nav class="w-screen bg-gray-900 flex flex-col md:flex-row items-center justify-between lg:h-15">
+            <span>
+                <h1 class="text-white text-2xl mx-auto text-center p-5">Portfolio</h1>
+            </span>
+
+            <button id="menu-toggle" class="md:hidden text-white ml-auto mr-5">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7">
+                    </path>
+                </svg>
+            </button>
+            <div id="menu" class=" flex flex-row gap-10 pr-5">
+                <a href="#" class="text-white text-lg  pt-2 hover:text-blue-100 ">About</a>
+                <a href="#" class="text-white text-lg  pt-2 hover:text-blue-100">Projects</a>
+                <a href="#" class="text-white text-lg  pt-2 hover:text-blue-100">Skills</a>
+                <a href="#" class="text-white text-lg  pt-2 hover:text-blue-100">Contact</a>
+            </div>
+        </nav>
+    </div>
+    <!--main-->
+    <section class="text-gray-900 text-center p-6  ">
+        <h1 class="text-3xl font-bold py-5">HELLO, I'M BHOOMI PATEL</h1>
+        <p class="text-lg">Welcome to my personal portfolio website. <br> I am a <b>WEB DEVELOPER</b> with a passion for
+            creating innovative and user-friendly web applications.</p>
+        <div class="p-5"><button class="w-45 py-2 text-center justify-center rounded-xl bg-gray-900 text-white">About
+                My Journey</button></div>
+                <br>
+                <br>
+
+        <!-- Responsive Cards -->
+        <h1 class="text-gray-900 font-bold text-3xl "><u>Projects</u></h1>
+        <div class="lg:flex flex-row justify-center">
+
+            <!-- Project Card 1 -->
+            <div class="flex flex-wrap justify-center mt-6">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg m-4">
+                    <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2">TimeLink</div>
+                        <p class="text-gray-700 text-base">
+                            I created a basic website called TimeLink, consisting of multiple pages designed using only
+                            HTML and CSS. The project focuses on building a simple, multi-page layout showcasing
+                            foundational web development skills.
+                        </p>
+                        <div class="px-6 pt-4 pb-2">
+                            <h3
+                                class="inline-block text-gray-900 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">
+                                #HTML</h3>
+                            <h3
+                                class="inline-block text-gray-900 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">
+                                #CSS</h3>
+                        </div>
+                        <div class="p-5">
+                            <button class="w-45 py-2 text-center justify-center rounded-full bg-gray-900 text-white">
+                                <a href="https://github.com/bhoomi-patel/2202031000008/tree/main/Assignment_2/code">View
+                                    project</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Card 2 -->
+            <div class="flex flex-wrap justify-center mt-6">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg m-4">
+                    <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2">TIC-TAC-TOE</div>
+                        <p class="text-gray-700 text-base">
+                            I created a simple Tic Tac Toe game using HTML, CSS, and basic JavaScript. The game allows
+                            two players to take turns, marking X and O on a grid. JavaScript handles the game logic,
+                            including win conditions.
+                        </p>
+                        <div class="px-6 pt-4 pb-2">
+                            <h3
+                                class="inline-block text-gray-900 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">
+                                #HTML</h3>
+                            <h3
+                                class="inline-block text-gray-900 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">
+                                #CSS</h3>
+                            <h3
+                                class="inline-block text-gray-900 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">
+                                #JavaScript</h3>
+                        </div>
+                        <div class="p-5 ">
+                            <button class="w-45 py-2 text-center justify-center rounded-full bg-gray-900 text-white">
+                                <a href="https://github.com/bhoomi-patel/My-repo/blob/main/game/mygame.html">View
+                                    project</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Card 3 -->
+            <div class="flex flex-wrap justify-center mt-6">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg m-4">
+                    <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2">WEATHER APP</div>
+                        <p class="text-gray-700 text-base">
+                            I built a weather app using HTML, CSS, and JavaScript, integrated with a weather API to
+                            provide real-time data. Users can search for cities to view current weather conditions,
+                            like temperature, humidity, and forecasts.
+                        </p>
+                        <div class="px-6 pt-4 pb-2">
+                            <h3
+                                class="inline-block text-gray-900 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">
+                                #HTML</h3>
+                            <h3
+                                class="inline-block text-gray-900 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">
+                                #CSS</h3>
+                            <h3
+                                class="inline-block text-gray-900 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">
+                                #JavaScript</h3>
+                            <h3
+                                class="inline-block text-gray-900 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">
+                                #Api</h3>
+                        </div>
+                        <div class="p-5">
+                            <button class="w-45 py-2 text-center justify-center rounded-full bg-gray-900 text-white">
+                                <a href="https://github.com/bhoomi-patel/TASK-1">View project</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Divider -->
+    <hr class="my-6 border-gray-300">
+
+    <!-- Experience Card -->
+    <section>
+        <div class="flex flex-wrap justify-self-center mt-6 lg:w-310 md:w-screen">
+            <div class="max-w-auto rounded overflow-hidden shadow-lg m-4 ">
+                <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2">
+                        <h1 class="text-3xl font-bold py-5 text-center"><u>Experience</u> </h1> </div>
+                    <p class="text-gray-700 text-base ">
+                        I gained hands-on experience working at [CODETECH IT SOLUTIONS], where I developed a MERN
+                        stack-based
+                        chat application. The project involved building real-time messaging features, user
+                        authentication, and a front-end using React, while integrating MongoDB, Express, and
+                        Node.js for the backend This project helped me strengthen my skills in full-stack development,
+                        while ensuring performance optimization and seamless communication features..
+                    </p>
+                    <div class="px-6 pt-4 pb-2 text-center">
+                        <h3 class="inline-block text-gray-900 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">
+                            #Experience</h3>
+                        <h3 class="inline-block text-gray-900 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">
+                            #Skills</h3>
+                        <h3 class="inline-block text-gray-900 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">
+                            #Intership</h3>
+                    </div>
+                    <div class="text-center">
+                        <button class="w-40 py-2 text-center justify-center rounded-full bg-gray-900 text-white">
+                            <a href="https://github.com/bhoomi-patel/TASK-2">View Project</a>
+                        </button>
+                
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--basic details-->
+    <!-- Education and Skills Section -->
+    <section class="text-gray-900  p-6">
+        <div class="flex  justify-self-center  lg:w-310 md:w-screen">
+            <div class="max-w-auto rounded overflow-hidden shadow-lg m-4 ">
+                <h1 class="text-3xl font-bold py-6 text-center px-5 "><u>Education & Skills</u></h1>
+                <p class="text-gray-900  text-md  p-5 ">I hold a <b>Bachelor of Technology in Information
+                        Technology</b> from <b>Silver Oak University</b> , At Ahemdabad. My education equipped me with both
+                    theoretical and practical knowledge. Here are some of the key skills I have acquired during my studies.
+
+
+                </p>
+
+                <!-- Skills Card -->
+
+                <div class="mt-4 px-5">
+                    <h3 class="text-xl font-bold"><u>Skills</u></h3>
+                    <ul class="list-disc list-inside mt-2 bg-b text-black-600">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript [Intermediate]</li>
+                        <li>MERN [Basic]</li>
+                        <li>SQL- database</li>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>C & C++</li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <!--footer-->
+       <footer>
+        <footer class="bg-gray-900 text-center text-white p-6 mt-8">
+            <p>&copy; 2025 My Portfolio, All rights reserved.</p>
+        </footer>
+       </footer>
+
+
+
+
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const menu = document.getElementById('menu');
+
+        menuToggle.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+
+</html>
